@@ -1,0 +1,221 @@
+body {
+background-color: rgb(212, 221, 230);
+}
+
+.titlebar {
+    border-style:groove;
+    margin-top: 0.1em;
+    background-color:rgb(74, 74, 226);
+    color:whitesmoke;
+    padding-top: 34px;
+    padding-bottom: 36px;
+}
+.logo{
+    font-size:40px;
+    margin-top: 1em;
+    margin-bottom:1em;
+    margin-left: 0.6em;
+    font-weight: bold;
+}
+.home{
+    margin-left:19em;
+    margin-top: 1em;
+    font-weight:bolder;
+    font-size: 25px;
+    color:ghostwhite;
+}
+
+.home:hover{
+    color:crimson;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+.jee{
+    margin-left:1.5em;
+    margin-top: 1em;
+    font-weight:bolder;
+    font-size: 25px;
+    color:ghostwhite;
+}
+.jee:hover{
+    color:crimson;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+.test{
+    margin-left:1.5em;
+    margin-top: 1em;
+    font-weight:bolder;
+    font-size: 25px;
+    color:ghostwhite;
+}
+.test:hover{
+    color:crimson;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+.learn{
+    margin-left:1.5em;
+    margin-top: 1em;
+    font-weight:bolder;
+    font-size: 25px;
+}
+.learn:hover{
+    color:crimson;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+
+.whatq,.infoeng,.infomed,.infoman,.infolaw,.infociv,.infoban,.infossc,.inforai,.infotea,.infooth{
+    margin-top:0.2em;
+    margin-bottom: 0.5em;
+    font-size: 32px;
+    font-weight:bold;
+}
+.whata,.a{
+    margin-top:0.2em;
+    margin-bottom: 0.5em;
+    font-size: 27px;
+}
+.whatqa,.eng,.med,.man,.law,.civ,.ban,.ssc,.rai,.tea,.oth{
+    border-style:double;
+    border-width:6px;
+    border-color: rgb(123, 123, 219);
+    width: 75%;
+    margin-top:2em;
+    background-color: ghostwhite;
+    padding-left:2px;
+}
+.whatqa{
+    margin-top:2em;
+}
+.whydolearn {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    position:absolute;
+    padding-left:8px;
+    right: 0.2em;
+    top: 23.5%;
+    background-color: ghostwhite;
+    border: 5px solid #74ea91;
+    width: 22.5%;
+    min-height: 650px;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.b{
+    color: #4de606;
+    font-weight:bold;
+}
+
+
+
+
+
+#mock{
+    margin-top: 0.8em ;
+    background-color:rgb(197, 123, 70);
+    padding-top: 2px;
+    padding-bottom:2px;
+    font-weight:bold;
+    position: relative;
+    margin-right:82%;
+    font-size: 20px;
+}
+.abcontent{
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:4px;
+    margin-right:1em;
+    margin-left:1em;
+    margin-top:1.2em ;
+    font-size:30px;
+    border: 3px double blue;
+    border-radius:2em;
+    background-color:ghostwhite;
+}
+
+.table-bordered{
+    align-content: center;
+}
+table,td {
+    border:1px solid black;
+    border-style:double;
+    visibility: hidden;
+}
+ td {
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 40px;
+
+}
+tr:nth-child(even) {
+background-color: #74c5a2;
+}
+tr:nth-child(odd) {
+    background-color: #b7a1e2;
+}
+.elig{
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:4px;
+    margin-right:1em;
+    margin-left:1em;
+    font-size:22px;
+    border: 3px double blue;
+    border-radius:2em;
+    background-color:ghostwhite;
+    margin-top:1em;
+    padding-top:0.5em;
+}
+.reserv{
+    padding-top:0.5em;
+    margin-top:1em;
+    font-size:22px;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:4px;
+    margin-right:1em;
+    margin-left:1em;
+    border: 3px double blue;
+    border-radius:2em;
+    background-color:ghostwhite;
+}
+
+
+
+
+
+
+
+.test-table{
+    margin-left:23em;
+    font-size: large;
+    margin-top:2em;
+}
+table,td {
+    border:1px solid black;
+    border-style:double;
+}
+.test-table tr{
+    background-color:#67f924;
+}
+td {
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 40px;
+}
+.benif{
+    padding-top:0.5em;
+    margin-top:1em;
+    font-size:22px;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:4px;
+    margin-right:1em;
+    margin-left:1em;
+    border: 3px double blue;
+    border-radius:2em;
+    background-color:ghostwhite;
+}

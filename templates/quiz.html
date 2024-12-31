@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do Learn</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="..\static\quiz.css"> 
+    <script src="..\static\quiz.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="..\static\logo.png" type="image/x-icon">
+</head>
+<body onload="startTimer(180, document.getElementById('timer'))">
+    <div class="titlebar">
+        <p1 class="logo">
+            DO-LEARN
+        </p1>
+        <p2 id="db">
+        </p2>
+        
+    </div>
+    
+    <div id="timer">
+        
+    </div>
+    <div id="mainbody">
+        <div id="quiz-container">
+            <!-- Add your quiz content here -->
+        </div>
+        <div id="panel-container">
+        </div>
+    </div>
+    <div id="before">
+        <div class="text-center">
+            <h1>Thank You !</h1>
+            <h2>HOPE YOU FOUND THE EXAM USEFUL,PLESE ATTEND EXAM ATLEAST FOR 30mins TO SEE YOU TEST ANALYSIS </h2>
+            <button class="btn-primary" onclick="document.location='D:/website/templates/test.html'">Back Home</button>
+        </div>
+    </div>
+    
+
+    <div id="quesresptab"> 
+        <button class="btn-primary" onclick="document.location='D:/website/templates/test.html'">Back Home</button>   
+        <div id="score">
+            
+        </div>
+        
+        <br>
+        <div id="phy-score">
+
+        </div>
+        <br>
+        <div id="che-score">
+
+        </div>
+        <br>
+        <div id="mat-score">
+
+        </div>
+        <canvas id="myPieChart" width="400" height="400"></canvas>
+
+        <br>
+        <button onclick="toggleDiv()" class="openqreport">View Question-wise Report</button>
+        <button onclick="time1()" class="timereportana">View Time Report</button>
+    
+    <br>
+    <br>
+    <div class="subcanvascont">
+        <canvas id="physubpie" width="400" height="400" style="display: flex; justify-content: space-around;"></canvas>
+    <canvas id="chesubpie" width="400" height="400" style="display: flex; justify-content: space-around;"></canvas>
+    <canvas id="matsubpie" width="400" height="400" style="display: flex; justify-content: space-around;"></canvas>
+    </div>
+
+    </div>
+    <div id="qandres">
+        <br>
+        <br>
+        <br>
+        <span style="font-size:28px;font-weight:bolder ;"><u>Question and Your Response.</u></span>
+        <br>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th><span style="font-size:20;font-weight:bold;">Question</span></th>
+                <th style="text-align: center;"><span style="font-size:20;font-weight:bold ;">Response</span></th>
+                <th style="text-align: center;"><span style="font-size:20;font-weight:bold ;">Answer</span></th>
+                <th style="text-align: center;"><span style="font-size:20;font-weight:bold ;">Score</span></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+    <div id="timereport">
+        <br>
+        <br>
+        <span style="font-size:38px;font-weight:bold;margin-left:33%;">OVERALL TIME WISE REPORT</span>
+        <table id="timetable">
+            <thead>
+                <tr>
+                    <th><span style="font-size:26;font-weight:bold;">Total Time</span></th>
+                    <th style="text-align: center;"><span style="font-size:24;font-weight:bold ;">Physics</span></th>
+                    <th style="text-align: center;"><span style="font-size:24;font-weight:bold ;">Chemistry</span></th>
+                    <th style="text-align: center;"><span style="font-size:24;font-weight:bold ;">Mathematics</span></th>
+                </tr>
+            </thead>
+            <tbody style="font-size:22px;"></tbody>
+        </table>
+        <canvas id="timepie" width="400" height="400"></canvas>
+        <br>
+        <br>
+        <span style="font-size:34px;font-weight:bold;margin-left:33%;">SUBJECT TIME WISE REPORT</span><br>
+        <div>
+        <button onclick="timedisp('phytimetable')" class="opentreport">PHYSICS Question-wise Report</button>
+        <button onclick="timedisp('chetimetable')" class="opentreport">CHEMISTRY Question-wise Report</button>
+        <button onclick="timedisp('mattimetable')" class="opentreport">MATHS Question-wise Report</button>
+        </div>
+        
+    </div>
+    <table id="phytimetable">
+            <thead>
+                <tr>
+                    <th><span style="font-size:26;font-weight:bold;">QUESTION</span></th>
+                    <th style="text-align: center;"><span style="font-size:24;font-weight:bold ;">TIMETAKEN</span></th>
+                </tr>
+            </thead>
+            <tbody style="font-size:22px;"></tbody>
+        </table>
+        <table id="chetimetable">
+            <thead>
+                <tr>
+                    <th><span style="font-size:26;font-weight:bold;">QUESTION</span></th>
+                    <th style="text-align: center;"><span style="font-size:24;font-weight:bold ;">TIMETAKEN</span></th>
+                </tr>
+            </thead>
+            <tbody style="font-size:22px;"></tbody>
+        </table>
+        <table id="mattimetable">
+            <thead>
+                <tr>
+                    <th><span style="font-size:26;font-weight:bold;">QUESTION</span></th>
+                    <th style="text-align: center;"><span style="font-size:24;font-weight:bold ;">TIMETAKEN</span></th>
+                </tr>
+            </thead>
+            <tbody style="font-size:22px;"></tbody>
+        </table>
+    
+</body>
+</html>
+

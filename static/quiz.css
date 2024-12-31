@@ -1,0 +1,274 @@
+ body{
+    background-color:white;
+ }
+ 
+ .titlebar{
+    border-style: groove;
+    margin-top: 0.1em;
+    background-color: rgb(74, 74, 226);
+    color: whitesmoke;
+    padding-top: 26px;
+    padding-bottom: 26px;
+ }
+
+ .logo{
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.6em;
+    font-weight: bold;
+ }
+
+ #db{
+    margin-bottom: 1em;
+    margin-left: 60em;
+    font-weight: bold;
+ }
+
+ #timer{
+    padding-left:48em;
+    font-size:28px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+
+#panel-container{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    position:absolute;
+    padding-left:8px;
+    right: 1em;
+    top: 22.5%;
+    background-color: ghostwhite;
+    border: 5px solid #74ea91;
+    width: 22.5%;
+    min-height: 400px;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#panel-container button:hover{
+    background-color:red;
+}
+.active{
+    background-color: #74ea91;
+}
+#quiz-container{
+    margin-top:3em;
+    margin-left:0.5em;
+    border: 3px solid rgb(9, 9, 9);
+    border-radius:2em ;
+    width:72% ;
+}
+.question-container {
+    padding-left:2% ;
+    margin-bottom: 3%;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:2% ;
+    border: 2px solid black;
+    padding-bottom: 2%;
+    border-radius: 1em;
+}
+
+.options-container {
+    padding-left:2% ;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    margin-left:3em;
+    padding-top:2% ;
+}
+
+.option-button {
+font-size: 18px;
+margin-bottom: 5px;
+width: 150px;
+height: 40px;
+}
+
+.selected{
+    background-color: aquamarine;
+}
+
+.option-button:hover{
+    background-color:lightgreen;
+}
+.navigation-buttons {
+    padding-left:2% ;
+    margin-top: 6%;
+    padding-bottom:2% ;
+    border: 2px solid rgb(0, 0, 0);
+    padding-top: 2%;
+    border-radius:1.4em;
+}
+
+.navigation-buttons button {
+margin-right: 10px; 
+}
+.navigation-buttons button:hover {
+    background-color:blue; /* Green color for hover effect, you can change it as needed */
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:1em ;
+    
+}
+table,tbody{
+    font-size:20px ;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+}
+#quesresptab{
+    display:none;
+}
+
+
+
+#score{
+    font-size:24px ;
+    border: 2px solid black;
+    padding-top:1.5% ;
+    padding-bottom:2.5% ;
+    margin-bottom:2% ;
+    margin-top:2%;
+}
+#mat-score{
+    font-size:24px ;
+    border: 2px solid black;
+    padding-top:1.5% ;
+    padding-bottom:2.5% ;
+    margin-bottom:2% ;
+}
+#phy-score{
+    font-size:24px ;
+    border: 2px solid black;
+    padding-top:1.5% ;
+    padding-bottom:2.5% ;
+}
+#che-score{
+    font-size:24px ;
+    border: 2px solid black;
+    padding-top:1.5% ;
+    padding-bottom:2.5% ;
+}
+.question-imagetable{
+    width:100% ;
+    height:6% ;
+}
+#myPieChart{
+    align-items: center;
+    margin-left:35% ;
+}
+#qandres{
+    display: none;
+}
+
+
+.openqreport{
+    margin-top:4%;
+    margin-left:11% ;
+    width:30% ;
+    height:13%;
+    font-size:36px;
+    background-color:aqua;
+}
+.openqreport:hover{
+    margin-top:2%;
+    margin-left:9% ;
+    width:34% ;
+    height:17%;
+    background-color:cornflowerblue;
+}
+
+#timereport{
+    display:none;
+}
+.timereportana{
+    margin-top:4%;
+    margin-left:10% ;
+    width:32% ;
+    height:13%;
+    font-size:36px ;
+    background-color:aqua ;
+}
+.timereportana:hover{
+    margin-top:2%;
+    margin-left:8% ;
+    width:34% ;
+    height:15%;
+    background-color:cornflowerblue;
+}
+.timetable.table.tbody{
+    text-align: center;
+}
+#timetable{
+    margin-top:2% ;
+    font-size: 22px;
+    border:4px solid black ;
+}
+
+
+#before{
+    display:none;
+}
+h1{   
+    text-align: center;
+    font-size: 42;
+}
+h2{
+    text-align: center;
+    padding-top:2% ;
+    font-size: 26;
+}
+.btn-primary{
+    margin-left:43% ;
+    background-color: gold;
+    height:5% ;
+    width:12% ;
+    font-size:120% ;
+}
+
+#timepie{
+    margin-left:35% ;
+    margin-top:3%;
+}
+
+#phytimetable{
+    display: none;
+}
+#chetimetable{
+    display: none;
+}
+#mattimetable{
+    display: none;
+}
+
+.opentreport{
+    margin-top:4%;
+    margin-left:5% ;
+    width:26% ;
+    height:10%;
+    font-size:30px ;
+    background-color:aqua ;
+}
+.opentreport:hover{
+    margin-top:2%;
+    margin-left:3% ;
+    width:30% ;
+    height:14%;
+    background-color:aqua ;
+}
+
+
+.subcanvascont {
+display: flex;
+margin-top:3%;
+  }
+canvas{
+    margin-left: 6%;
+}
